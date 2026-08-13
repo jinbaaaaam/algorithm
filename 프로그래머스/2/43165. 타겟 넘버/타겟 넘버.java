@@ -8,7 +8,6 @@ class Solution {
 		dfs(new StringBuilder(), 0);
 		return answer;
 	}
-
 	void dfs(StringBuilder sb, int depth) {
 		if (depth >= numbers.length) {
 			String ex = sb.toString();
@@ -21,7 +20,6 @@ class Solution {
 			return;
 		}
 		int len = sb.length();
-
 		sb.append("+").append(numbers[depth]);
 		dfs(sb, depth + 1);
 		sb.setLength(len);
