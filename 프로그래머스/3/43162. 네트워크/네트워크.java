@@ -27,7 +27,6 @@ class Solution {
 			}
 		}
 		return cnt;
-		
 	}
 	public void dfs(int start, List<List<Integer>> current) {
 		visited[start] = true;
