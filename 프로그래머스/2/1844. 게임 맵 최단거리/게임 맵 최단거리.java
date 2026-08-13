@@ -9,8 +9,7 @@ class Solution {
     
     public boolean checkBound(int x, int y) {
 		return x>=0 && x<n && y>=0 && y<m;
-	}
-    
+    }
     public int solution(int[][] maps) {
 		Deque<Integer[]> deque = new ArrayDeque<>();
         n=maps.length;
